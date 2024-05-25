@@ -3,10 +3,14 @@ import './App.css';
 import UserComponents, { Bio } from './UserComponents.js';
 
 function App() {
+  const name = 'Shanakr Pandey';
+  const bio = 'Software DEveloper';
   return (
     <>
-      <UserComponents />
-      <Bio />
+      <UserComponents name={name} />
+      <Bio bio={bio} />
+      <UserComponents name={'Sam'} />
+      <Bio bio={bio} />
     </>
   );
 }

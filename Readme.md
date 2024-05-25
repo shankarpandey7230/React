@@ -42,3 +42,5 @@ Components: Building Blocks of React Applications
 can return only one element :
 React Fragment:
 Only one default export from component
+
+#Props: are use by components to communicate with each other.Parent component can pass some information to its child components by giving them props. They are readable only.Unidirectional data flow
