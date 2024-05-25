@@ -36,3 +36,9 @@ CLI tools:
 1. npm - install any packages
 2. npx - execution of packages
 3. yarn
+
+Components: Building Blocks of React Applications
+
+can return only one element :
+React Fragment:
+Only one default export from component
