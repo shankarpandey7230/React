@@ -33,6 +33,6 @@ NPM Ecosystem:t allows developers to discover, install, and manage third-party l
 
 CLI tools:
 
-1. npm
-2. npx
+1. npm - install any packages
+2. npx - execution of packages
 3. yarn
