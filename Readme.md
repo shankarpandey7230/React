@@ -44,3 +44,7 @@ React Fragment:
 Only one default export from component
 
 #Props: are use by components to communicate with each other.Parent component can pass some information to its child components by giving them props. They are readable only.Unidirectional data flow
+
+State: is a built in React object that is used to contain data or information abou the component. A components's state can change over time; whenever it changes the components to rerender
+
+Hooks: are defined using JavaScript functions, but they represent a special type of reusable logic with restrictions on where they can be called
