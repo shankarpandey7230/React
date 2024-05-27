@@ -1,4 +1,5 @@
 import React from 'react';
+import Shankar from './Shankar.jpg';
 
 const UserProfile = () => {
   //   return <div style={{ color: 'green', fontSize: '2rem' }}>UserProfile</div>;
@@ -6,10 +7,11 @@ const UserProfile = () => {
   return (
     <div className="card">
       <div className="img">
-        <img
+        {/* <img
           src="https://storage.googleapis.com/revex-client-portal-production/KWncsuQY9e7Ud3Sa4MKe/users/dc080ab1-3dd0-4995-9ae0-e89f928cb055"
           alt="img"
-        />
+        /> */}
+        <img src={Shankar} alt="" />
       </div>
       <div className="info">
         <h1 className="text-secondary text-center">Shankar</h1>
