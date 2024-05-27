@@ -12,7 +12,7 @@ const UserProfile = () => {
         />
       </div>
       <div className="info">
-        <h1>Shankar</h1>
+        <h1 className="text-secondary text-center">Shankar</h1>
 
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
