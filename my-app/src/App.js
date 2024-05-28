@@ -3,6 +3,7 @@ import './App.css';
 import UserComponents, { Bio } from './UserComponents.js';
 import { useState } from 'react';
 import UserProfile from './UserProfile.js';
+import MyForm from './MyForm';
 function App() {
   // const name = 'Shanakr Pandey';
   // const bio = 'Software DEveloper';
@@ -18,8 +19,11 @@ function App() {
   };
   // console.log(counter);
   return (
-    <div className="user-Page" style={{ background: 'black', color: 'white' }}>
-      <UserProfile />
+    <div
+    // className="user-Page" style={{ background: 'black', color: 'white' }}
+    >
+      <MyForm />
+      {/* <UserProfile /> */}
       {/* <UserComponents name={name} />
       <Bio bio={bio} />
       <UserComponents name={'Sam'} />
